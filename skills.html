@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="with=device-width, intial-
+    scale=1.0">
+    <title>MY WEBSITE</title>
+    <link rel="stylesheet" href="style1.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <script defer src="node_modules/swup/dist/swup.min.js"></script>
+    <script defer src="app.js"></script>
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+ </head>
+<body>
+   <section class="skills-header">
+       
+       <nav>
+           <div class="nav-links hidden" id="navLinks">
+              <i class="fa fa-times" onclick="hideMenu()"></i>
+               <ul>
+                    <li><a href="index.html">HOME</a></li>
+                   <li><a href="about.html">ABOUT ME</a></li>
+                   <li><a href="skills.html">PORTFOLIO</a></li>
+                   <li><a href="projects.html">PROJECTS</a></li>
+                   <li><a href="contact.html">CONTACT ME</a></li>
+               </ul>
+           </div>
+           <i class="fa fa-bars"onclick="hideMenu()"></i>
+           
+       </nav>
+       <div class="projects hidden">
+       <h9>Portfolio <br> UI/UX Designer</h9>
+       </div>
+       
+   </section>
+   <!------- skills content --------------->
+   <section class="skills hidden">
+              <h1>Courses Taken</h1>
+       <p>Below are my skills and currently learning more!</p>
+            
+              <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- CS 002 (FUNDAMENTALS OF COMPUTER SCIENCE)</p>
+              <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- CS 003A (INTRO OBJECT ORIENTD PROGR C++)</p>
+              <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- CS 008 (FUNDAMENTALS OF COMPUTER SCIENCE)</p>
+              <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- CS 066 (ASSEMBLY LANG PRGRMG SCI AND MATH)</p>
+              <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- BIT 025 (SURVEY OF COMPUTER TECHNOLOGY)</p>
+              <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- CS 3035 (Paradigms of Programming) | In Progress </p>
+              <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- INTRO TO AUTOMATA THEORY CS 3186 | In Progress </p> 
+       
+       
+       <h1>What I can do</h1>
+            <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- Website Design</p>
+            <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- Basics of a WoW UI Addon</p>
+            <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- Use Sketch/AdodeXD</p>
+            <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- HTML5/CSS/Javascript </p>
+       
+       <a href="https://drive.google.com/file/d/1pQ6_VwUJ_V8CP_6FrJ2MiejhpX_YKRfa/view?usp=sharing" class= "resume-btn">Resume</a>
+       
+       <div class="wireframe hidden">
+        <img src="images/wireframe.png">
+       
+       
+       </div>
+                
+              
+               <div class="row hidden">
+          <div class="skills-col">
+          <img src="images/clogo.jpg">
+          <div class="layer">
+              <h3>C++</h3>
+          </div> 
+     </div>
+     <div class="skills-col">
+          <img src="images/SFML_Logo.png">
+          <div class="layer">
+              <h3>SFML</h3>
+          </div> 
+     </div>
+     <div class="skills-col">
+          <img src="images/htmlogo.png">
+          <div class="layer">
+              <h3>HTML</h3>
+          </div> 
+          
+     </div>
+          <div class="skills-col">
+          <img src="images/csslogo.png">
+          <div class="layer">
+              <h3>CSS</h3>
+          </div>   
+            </div>
+          <div class="skills-col">
+          <img src="images/sketch.png">
+          <div class="layer">
+              <h3>SKETCH</h3>
+          </div> 
+             
+    </div> 
+           
+            
+    </div>      
+    
+   </section>
+
+   
+   
+   <!------- ICONS BELOW SITE --------------->
+   
+   <section class="footer">
+   <h4></h4>
+   <p></p>
+   <div class="icons">
+      <i class="fa fa-facebook"></i>
+      <i class="fa fa-instagram"></i>
+      <i class="fa fa-twitter"></i>
+
+    
+      
+       
+   </div>
+   </section>
+   
+   
+   
+   
+   
+   
+  <!-------JavaScript for Toggle Menu--------------->
+   <script>
+    
+       var navLinks = document.getElementById("navLinks");
+       
+       function showMenu(){
+           navLinks.style.right = "0";
+       }
+        function hideMenu(){
+           navLinks.style.right = "-200px";
+       }
+    
+    
+    </script>
+    
+</body>
+</html>

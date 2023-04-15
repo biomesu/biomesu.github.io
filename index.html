@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="with=device-width, intial-
+    scale=1.0">
+    <title>MY WEBSITE</title>
+    <link rel="stylesheet" href="style1.css">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href ="./fullpage.min.css">
+    <script defer src="app.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css" />
+</head>
+<body>
+
+     <div id ="header1">
+    <section class="header">
+      
+ 
+        <img src="images/websitebanner.jpg" class="back-video">
+          
+      
+       <nav>
+           <div class="nav-links hidden" id="navLinks">
+              <i class="fa fa-times" onclick="hideMenu()"></i>
+               <ul>
+                    <li><a href="index.html">HOME</a></li>
+                   <li><a href="about.html">ABOUT ME</a></li>
+                   <li><a href="skills.html">PORTFOLIO</a></li>
+                   <li><a href="projects.html">PROJECTS</a></li>
+                   <li><a href="contact.html">CONTACT ME</a></li>
+               </ul>
+           </div>
+           <i class="fa fa-bars"onclick="hideMenu()"></i>
+       </nav>
+       
+       <div class="text-box">
+          <ul>
+           <h1>I'm <span class="auto-type"></span></h1>
+           <p>An experienced C++, SFML, HTML, CSS, and Sketch/AdobeXD programmer.
+           </p>
+           <a href="https://github.com/biomesu" class= "github-btn">Github</a>
+           </ul>
+       </div>
+         
+       <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+       <script>
+           var typed = new Typed(".auto-type",{
+               strings: ["Learning","Coding","Sleeping","Eating"],
+               typeSpeed: 150,
+               backSpeed: 150,
+               loop: true
+           })
+       
+       
+       </script>
+    
+        
+   </section>
+         </div>
+    
+   <!------- Information --------------->
+  
+   <section class="hidden">
+      
+       <h1>Information</h1>
+       <p>Computer Science Major</p>
+       
+    <div class="row">
+        <div class="information-col">
+       <h3>Languages</h3>
+        <p>C++</p>
+            
+        </div>
+    <div class="information-col">
+    
+        <h3>Degree</h3>
+        <p>Bachelors in Computer Science (In Progress)</p>
+        
+         </div>
+      <div class="information-col">
+        <h3>Other</h3>
+          <p>Github</p>
+        
+        </div>
+
+         </div>
+    </section> 
+   
+   <!------- CONTACT ME --------------->
+   <section class="contact hidden">
+   <h1> Use the button below if you<br> would like to contact me through email.</h1>
+   <a href="contact.html" class="github-btn">CONTACT ME</a>
+   </section>
+   
+   
+   <!------- ICONS BELOW SITE --------------->
+   
+   <section class="footer">
+   <h4></h4>
+   <p></p>
+   <div class="icons">
+      <i class="fa fa-facebook"></i>
+      <i class="fa fa-instagram"></i>
+      <i class="fa fa-twitter"></i>
+
+    
+      
+       
+   </div>
+   </section>
+   
+   
+   
+   
+   
+   
+  <!-------JavaScript for Toggle Menu--------------->
+   <script>
+    
+       var navLinks = document.getElementById("navLinks");
+       
+       function showMenu(){
+           navLinks.style.right = "0";
+       }
+        function hideMenu(){
+           navLinks.style.right = "-200px";
+       }
+    
+    
+    </script>
+    
+</body>
+</html>
